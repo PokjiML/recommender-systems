@@ -1,6 +1,8 @@
 # Movie Recommender Evaluation
 
 The main scope of this project is to test different recommending strategies against each other.
+Results indicate that using encoder transformer model to extract the embedding from the movie plots
+seems to yield the best results indicating the dominating role Transformers already play in information retrieval tasks.
 
 ---
 
