@@ -4,7 +4,7 @@ The main scope of this project is to test different recommending strategies agai
 
 ---
 
-## 📊 Data
+##  Data
 
 Due to file size limits on GitHub, the data is not included in this repository.  
 The datasets used by the notebooks can be downloaded from:  
@@ -12,9 +12,9 @@ The datasets used by the notebooks can be downloaded from:
 
 ---
 
-## 🧠 Recommenders
+##  Recommenders
 
-### ✅ Content-based
+###  Content-based
 * **What:** Compute cosine similarity on pre-computed item features (genres, crew, etc.).
 * **File:** `content_based_recommender.py`
 * **How:**  
@@ -25,7 +25,7 @@ The datasets used by the notebooks can be downloaded from:
 
 ---
 
-### 📝 Plot-based
+###  Plot-based
 * **What:** Compute cosine similarity on TF–IDF–style plot embeddings.
 * **File:** `merged_recommender.py`
 * **How:**  
@@ -36,7 +36,7 @@ The datasets used by the notebooks can be downloaded from:
 
 ---
 
-### 🖼 Poster-based
+###  Poster-based
 * **What:** Compute cosine similarity on CLIP poster embeddings filtered by genre.
 * **File:** `poster_recommender.py`
 * **How:**  
@@ -48,7 +48,7 @@ The datasets used by the notebooks can be downloaded from:
 
 ---
 
-### 👥 Collaborative filtering
+###  Collaborative filtering
 * **What:** Recommend by normalized co-rating frequency among users.
 * **File:** `collaborate_recommender.py`
 * **How:**  
@@ -61,7 +61,7 @@ The datasets used by the notebooks can be downloaded from:
 
 ---
 
-### 🔀 Hybrid
+###  Hybrid
 * **What:** Weighted sum of Content (0.4), Plot (0.3) and Poster (0.3) similarities.
 * **File:** `merged_recommender.py`
 * **How:**  
@@ -74,9 +74,9 @@ The datasets used by the notebooks can be downloaded from:
 
 ---
 
-## 📈 Findings
+##  Findings
 
-Recommendations were evaluated across five methods using movie examples:
+For evaluation in total 625 examples were manually checked and rated:
 
 | Recommender   | Excellent | Good | Poor |
 |---------------|:--------:|:----:|:----:|
