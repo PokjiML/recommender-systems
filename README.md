@@ -15,7 +15,7 @@ The datasets used by the notebooks can be downloaded from:
 ##  Recommenders
 
 ###  Content-based
-* **What:** Compute cosine similarity on pre-computed item features (genres, crew, etc.).
+* **What:** Compute cosine similarity on pre-computed item features (genres, actors, etc.).
 * **File:** `content_based_recommender.py`
 * **How:**  
   * Loads `movieapp_movie.csv` (via pandas) and `all_features.npy` (via NumPy)
@@ -26,7 +26,7 @@ The datasets used by the notebooks can be downloaded from:
 ---
 
 ###  Plot-based
-* **What:** Compute cosine similarity on TF–IDF–style plot embeddings.
+* **What:** Compute cosine similarity on plot embeddings extracted from transformer model.
 * **File:** `merged_recommender.py`
 * **How:**  
   * Loads `movie_plot_embeddings.csv` into DataFrame
